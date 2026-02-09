@@ -1,0 +1,64 @@
+# Dependências
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Build do Next.js
+.next
+out
+build
+dist
+
+# Arquivos de cache
+.turbo
+.eslintcache
+
+# Testes
+coverage
+.nyc_output
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+__tests__
+__mocks__
+
+# Ambiente local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Documentação
+README.md
+*.md
+docs
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.circleci
