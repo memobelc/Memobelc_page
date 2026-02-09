@@ -745,7 +745,7 @@ export default function Pack100LivrosIngles() {
 
             <div className="bg-white/20 backdrop-blur-lg p-6 sm:p-8 rounded-2xl border-2 border-white/50">
               <p className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">
-                🎁 BÔNUS EXCLUSIVOS para os próximos {spotsRemaining} alunos:
+                🎁 BÔNUS EXCLUSIVOS para os próximos alunos:
               </p>
               <ul className="space-y-3 text-base sm:text-lg">
                 <li className="flex items-start gap-3 text-left">
