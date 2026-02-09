@@ -13,8 +13,6 @@ import {
   Clock,
   Target,
   Award,
-  Sparkles,
-  Users,
   Infinity,
 } from "lucide-react";
 
@@ -22,11 +20,11 @@ export default function Pack100LivrosIngles() {
   const [isClient, setIsClient] = useState(false);
   const checkoutUrl = process.env.NEXT_PUBLIC_CHECKOUT_URL_1OO_BOOKS || "#";
 
-  // Simulação de vagas (43% = 27 de 50)
-  const totalSpots = 50;
-  const spotsTaken = 27;
-  const spotsRemaining = totalSpots - spotsTaken;
-  const percentageTaken = Math.round((spotsTaken / totalSpots) * 100);
+  // Simulação de vagas (43% = 27 de 50) - Descomente se quiser usar
+  // const totalSpots = 50;
+  // const spotsTaken = 27;
+  // const spotsRemaining = totalSpots - spotsTaken;
+  // const percentageTaken = Math.round((spotsTaken / totalSpots) * 100);
 
   // Garante que está no cliente
   useEffect(() => {

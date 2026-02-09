@@ -6,10 +6,8 @@ import { Button } from "@/components/ui/button";
 import {
   CheckCircleIcon,
   StarIcon,
-  ClockIcon,
   TrophyIcon,
   BrainIcon,
-  TargetIcon,
   LightningIcon,
   ShieldCheckIcon,
   ArrowRightIcon,
@@ -17,7 +15,6 @@ import {
   UsersIcon,
   GlobeIcon,
   ChatCircleDotsIcon,
-  GraduationCapIcon,
   HeartIcon,
 } from "@phosphor-icons/react/dist/ssr";
 import logo from "../../../public/logo.png";
@@ -464,7 +461,7 @@ export default function CursoInglesCriancasPage() {
                       />
                     ))}
                   </div>
-                  <p className="text-gray-700 mb-6 italic">"{testimonial.text}"</p>
+                  <p className="text-gray-700 mb-6 italic">&quot;{testimonial.text}&quot;</p>
                   <div>
                     <p className="font-bold text-gray-900">{testimonial.name}</p>
                   </div>
